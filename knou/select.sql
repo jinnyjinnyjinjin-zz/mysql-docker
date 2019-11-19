@@ -1,0 +1,1 @@
+SELECT 제목, 제작국가, 개봉일자, 제작사, 배급사 FROM 영화 WHERE 제작년도 >= UNIX_TIMESTAMP (DATE_SUB(now(), INTERVAL 3 YEAR));
